@@ -1,0 +1,80 @@
+# Sales Performance & Operations Dashboard (SQL + Power BI)
+
+## Project Overview
+This project analyzes sales performance, pricing behavior, and delivery efficiency using **SQL (MySQL)** and **Power BI (Web)**.  
+The goal is to provide an executive-level view of revenue drivers while also uncovering operational and pricing insights that impact profitability and customer experience.
+
+---
+
+## Dataset Overview
+The dataset contains transactional sales records with:
+- Order and delivery dates
+- Products and quantities sold
+- Unit prices, discounts, and shipping costs
+- Salesperson, store location, region
+- Customer type (Retail / Wholesale)
+
+Time coverage spans **2023–2025**, enabling trend and growth analysis.
+
+---
+
+## Key KPIs
+
+### Page 1 – Performance Overview
+- **Total Sales**
+- **Average Unit Price**
+- **Total Units Sold**
+- **Fast Delivery Rate (< 5 days)**  
+- **Average Wait Time (Days)**
+
+### Page 2 – Pricing & Operations
+- **Number of Products**
+- **Total Discount**
+- **Average Shipping Cost**
+- **Customer Type (Retail / Wholesale slicer)**
+
+---
+
+## Key Insights
+
+### Revenue & Performance
+- Sales are **well distributed across regions and salespeople**, reducing dependency risk.
+- Tablets, laptops, and printers generate the highest total revenue.
+- 2024 showed positive year-over-year growth, while 2025 results reflect partial-year data.
+
+### Pricing & Product Mix
+- Some products exhibit **low volume but high revenue**, indicating premium pricing potential.
+- Average unit price varies meaningfully with quantity, highlighting different pricing strategies across products.
+- Discounts are concentrated in specific products, signaling margin pressure areas.
+
+### Operations & Delivery
+- Average delivery wait time is approximately **6 days**.
+- Only **44% of orders** are delivered within 5 days, highlighting an opportunity for logistics improvement.
+- Shipping costs vary by product and correlate with pricing behavior for certain items.
+
+---
+
+## Tools & Technologies
+- **SQL (MySQL)** — data cleaning, aggregation, EDA
+- **Power BI (Web)** — interactive dashboards and KPIs
+- **DAX** — calculated measures (delivery metrics, rates, averages)
+
+---
+
+## Dashboard Structure
+- **Page 1:** Executive overview (sales, trends, performance)
+- **Page 2:** Operational & pricing analysis (discounts, shipping, customer type)
+
+---
+
+## Business Value
+This dashboard enables stakeholders to:
+- Identify top revenue drivers and concentration risks
+- Understand pricing vs volume trade-offs
+- Monitor delivery efficiency without relying on assumed SLA dates
+- Support data-driven decisions in sales, pricing, and operations
+
+---
+
+## Notes
+- Due to the absence of a promised delivery date, delivery performance is evaluated using **actual wait time** and a **fast-delivery threshold**, ensuring metrics remain objective and defensible.
